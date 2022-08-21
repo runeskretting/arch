@@ -1,0 +1,139 @@
+    1  ping 192.168.15.1
+    2  sudo pacman -S alacritty
+    3  sudo reboot
+    4  sudo pacman -S vim
+    5  pwd
+    6  ls -la
+    7  sudo pacman -Syu
+    8  pwd
+    9  mkdir .config
+   10  mkdir -p .config/{bspwm,sxhkd}
+   11  ls -l .config/
+   12  install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/
+   13  ls -l .config/
+   14  ls -l .config/bspwm/
+   15  install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/
+   16  vim .config/sxhkd/sxhkdrc 
+   17  vim .config/bspwm/bspwmrc 
+   18  sudo pacman -S yay
+   19  sudo reboot
+   20  exit
+   21  ls -la
+   22  top
+   23  df -h
+   24  sudo pacman -S neofetch
+   25  neofetch
+   26  neofetch
+   27  sudo pacman -Ss yay
+   28  sudo vim /etc/pacman.conf 
+   29  sudo pacman -Syyyu
+   30  sudo pacman -Ss yay
+   31  sudo pacman -S google-chrome-stable
+   32  sudo pacman -Ss chrome
+   33  python --version
+   34  python
+   35  python3
+   36  sudo pacman -S base-devel
+   37  sudo pacman -S git
+   38  sudo pacman -S yay
+   39  cd /opt/
+   40  sudo git clone https://aur.archlinux.org/yay-git
+   41  ls
+   42  sudo chown -R rune:rune ./yay-git/
+   43  cd yay-git/
+   44  makepkg -si
+   45  cd
+   46  yay
+   47  yay -S google-chrome
+   48  vim .config/sxhkd/sxhkdrc 
+   49  sudo pacman -S dmenu
+   50  exit
+   51  ls
+   52  sudo pacman -S polybar
+   53  sudo pacman -S nitrogen picom
+   54  ls -l .config/
+   55  mkdir .config/polybar
+   56  cd .config/polybar/
+   57  vim launch.sh
+   58  ls
+   59  cd..
+   60  cd ..
+   61  cd bspwm/
+   62  pwd
+   63  vim bspwmrc 
+   64  cd ../polybar/
+   65  ls
+   66  cp /usr/share/doc/polybar/examples/config.ini .
+   67  ls
+   68  vim config.ini 
+   69  ls
+   70  chmod +x launch.sh 
+   71  ls
+   72  cd ../bspwm/
+   73  vim bspwmrc 
+   74  cd ../polybar/
+   75  ls
+   76  vim config.ini 
+   77  vim launch.sh 
+   78  reboot
+   79  date
+   80  shutdown now
+   81  vim .config/sxhkd/sxhkdrc 
+   82  vim .config/bspwm/bspwmrc 
+   83  sudo pacman -Qi polybar
+   84  sudo vim /etc/polybar/config.ini 
+   85  vim .config/polybar/config.ini 
+   86  polybar
+   87  polybar bar1
+   88  vim .config/bspwm/bspwmrc 
+   89  chmod +x $HOME/.config/polybar/launch.sh 
+   90  vim $HOME/.config/polybar/launch.sh 
+   91  $HOME/.config/polybar/launch.sh 
+   92  logout
+   93  logoff
+   94  vim $HOME/.config/polybar/launch.sh 
+   95  reboot
+   96  neofetch
+   97  exit
+   98  vim .config/polybar/config.ini 
+   99  reboot
+  100  vim .config/sxhkd/sxhkdrc 
+  101  sudo pacman -S thunar
+  102  sudo pacman -Ss sublime
+  103  yay -Ss sublime
+  104  yay -S sublime-text-4
+  105  sudo pacman -S meld
+  106  python
+  107  yay -Ss pycharm
+  108  yay -S pycharm-professional
+  109  htop
+  110  yay -Qs jupyter-server
+  111  yay -Qsi jupyter-server
+  112  yay -Qi jupyter-server
+  113  yay -si jupyter-server
+  114  ping server1
+  115  ping server1.skretting.family
+  116  shutdown now
+  117  sudo pacman -S pipewire-pulse
+  118  exit
+  119  sudo pacman -S pavucontrol
+  120  ls -la
+  121  shutdown now
+  122  ping vg.no
+  123  exit
+  124  df -h
+  125  sudo pacman -S btrfs-progs
+  126  ll
+  127  sudo su
+  128  cd
+  129  yay -Ss timeshift
+  130  yay -S timeshift
+  131  sudo pacman -S cron
+  132  sudo timeshift-launcher
+  133  history
+  134  history > arch_inst.txt
+  135  ls
+  136  cat arch_inst.txt 
+  137  sudo pacman -Ss thunar
+  138  sudo pacman -S thunar-volman
+  139  history > arch_inst.txt
